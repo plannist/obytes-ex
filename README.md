@@ -53,5 +53,5 @@ pnpm android
 ```sql
  1. /app/_layout.tsx 파일이 기존 App.tsx를 대체한다.
  2. <Stack> 테크 내에서 모든 스크린을 등록할 필요는 없다. ex) Test.tsx
- 3. <Stack> 테그에 없는 component 는 Link 테그 혹은 navigate 로 이동이 가능하다.
+ 3. <Stack> 테그 내에 없는 component 는 Link 테그 혹은 useRouter 로 이동이 가능하다.
 ```
